@@ -1,4 +1,4 @@
-# Black jack counter with basic strategy without accounting deviation
+# Blackjack counter with basic strategy without accounting deviation
 
 Basic manual black jack counter with basic strategy. 
 
@@ -15,6 +15,6 @@ Basic manual black jack counter with basic strategy.
 
 
 
-##### Preview
+#### Preview
 
 ![preview](preview.png)
