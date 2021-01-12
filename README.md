@@ -1,6 +1,6 @@
 # Blackjack counter with basic strategy without accounting for deviation
 
-Basic manual black jack counter with basic strategy. Program is based on running count and playing with 8 decks.
+Basic manual blackjack counter with basic strategy. Program is based on running count and playing with 8 decks.
 
 
 #### TODO
