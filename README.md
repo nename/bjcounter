@@ -12,7 +12,7 @@ Basic manual black jack counter with basic strategy. Program is based on running
 5. add player advantage (%)
 
 
-*you can easily account for the deviation by playing with positive true count only
+*you can easily account for the deviation by playing with positive true count only (positive true count means there is bigger probabilty of getting larger numbers and vice versa)
 
 
 #### Preview
