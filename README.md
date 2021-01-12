@@ -1,4 +1,4 @@
-# Blackjack counter with basic strategy without accounting deviation
+# Blackjack counter with basic strategy without accounting for deviation
 
 Basic manual black jack counter with basic strategy. Program is based on running count.
 
