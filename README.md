@@ -18,7 +18,3 @@ Basic manual blackjack counter with basic strategy. Program is based on running 
 #### Preview
 
 ![preview](preview.png)
-
-#### Review
-
-After some testing it is not that bad of a tool. Button clicking gets painful over time and the missing possibility of adding discarded cards is not making it better, but if you input cards and get information about basic strategy then the true count can help you decide (positive number means there is bigger probabilty of large numbers and vice versa).
