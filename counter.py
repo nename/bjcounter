@@ -199,21 +199,19 @@ adviceButton = ttk.Button(windows, text="advice", command=giveAdvice)
 adviceButton.grid(column=1, row=8)
 
 # dropdown for cards
-clicked1 = StringVar()
-clicked2 = StringVar()
-clicked3 = StringVar()
+clicked = StringVar()
 
-dropDown1 = OptionMenu(windows, clicked1, *chs.dropDownOptions)
+dropDown1 = OptionMenu(windows, clicked, *chs.dropDownOptions)
 dropDown1.grid(column=0, row=7)
 
-dropDown2 = OptionMenu(windows, clicked2, *chs.dropDownOptions)
+dropDown2 = OptionMenu(windows, clicked, *chs.dropDownOptions)
 dropDown2.grid(column=1, row=7)
 
-dropDown3 = OptionMenu(windows, clicked3, *chs.dropDownOptions)
+dropDown3 = OptionMenu(windows, clicked, *chs.dropDownOptions)
 dropDown3.grid(column=2, row=7)
 
-clicked1.trace('w', setCardValues)
-clicked2.trace('w', setCardValues)
-clicked3.trace('w', setCardValues)
+clicked.trace('w', setCardValues)
+
+# main loop
 
 windows.mainloop()
